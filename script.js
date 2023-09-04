@@ -60,3 +60,16 @@ let nonEdible = ["table", "tyre", "phone", "watch", "chair"];
 // Initialize empty arrays for edible and non-edible items this is where we will input the sorted elements
 let edibleItems = [];
 let nonEdibleItems = [];
+
+// create a function to search through each element of the array and
+function sortItems(arrayOfItems) {
+  // remove leading/trailing spaces using trim() to ensure accurate matching.
+  for (let i = 0; i < arrayOfItems.length; i++) {
+    let item = arrayOfItems[i].trim();
+
+   
+  }
+
+  //convert back to strin of values using the js join() function and then return
+  return [edibleItems.join(","), nonEdibleItems.join(",")];
+}
