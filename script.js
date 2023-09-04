@@ -11,3 +11,8 @@ let string_b = 0;
 let string_d = 0;
 let string_y = 0;
 let count;
+
+//declare your function with a carrying the declared strings as parameters
+function countMe(stringLetters) {
+
+}
