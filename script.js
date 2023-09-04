@@ -75,6 +75,9 @@ function sortItems(arrayOfItems) {
     }
   }
 
-  //convert back to strin of values using the js join() function and then return
+  //convert back to string of values using the js join() function and then return
   return [edibleItems.join(","), nonEdibleItems.join(",")];
 }
+
+//display the output
+console.log(sortItems(arrayOfItems));
