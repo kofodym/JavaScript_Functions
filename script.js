@@ -14,5 +14,20 @@ let count;
 
 //declare your function carrying the declared strings as parameters
 function countMe(stringLetters) {
+//Loop through each character of the string
+  for (let i = 0; i < stringLetters.length; i++) {
+    // Check if the given  characters are there i.e 'a', 'b', 'd', or 'y'
+    //Increment and add to the respective declared counts for each character
 
+    if (stringLetters[i] == "a") {
+      string_a++;
+    } else if (stringLetters[i] == "b") {
+      string_b++;
+    } else if (stringLetters[i] == "d") {
+      string_d++;
+    } else if (stringLetters[i] == "y") {
+      string_y++;
+    }
+  }
+ 
 }
