@@ -57,3 +57,6 @@ let arrayOfItems = stringOfItems.split(",");
 let edible = ["rice", "yam", "beans", "cocoyam", "banana", "semo", "milk"];
 let nonEdible = ["table", "tyre", "phone", "watch", "chair"];
  
+// Initialize empty arrays for edible and non-edible items this is where we will input the sorted elements
+let edibleItems = [];
+let nonEdibleItems = [];
