@@ -32,3 +32,7 @@ function countMe(stringLetters) {
   // return the count into an array of numbers
   return [string_a, string_b, string_d, string_y];
 }
+
+// assign the countMe function to a variable to call it, then call it in the terminal
+count = countMe(stringLetters);
+console.log(count);
