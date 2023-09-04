@@ -30,5 +30,5 @@ function countMe(stringLetters) {
     }
   }
   // return the count into an array of numbers
-  return [stringA, stringB, stringC];
+  return [string_a, string_b, string_d, string_y];
 }
