@@ -53,4 +53,7 @@ let stringOfItems =
   // use the split js method to split the items with a comma and add to an array.
 let arrayOfItems = stringOfItems.split(",");
 
+// Define a list of edible  and non-edible items
+let edible = ["rice", "yam", "beans", "cocoyam", "banana", "semo", "milk"];
+let nonEdible = ["table", "tyre", "phone", "watch", "chair"];
  
