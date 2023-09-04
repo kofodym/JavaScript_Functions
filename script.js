@@ -47,19 +47,10 @@ console.log(`Count of 'y': ${string_y}`);
 // Note: your output should be two new strings, one containing edible items and the other non-edible items.
 
 //define the string of items
-// let stringOfItems = [rice,yam,
-//   beans,
-//   cocoyam,
-//   banana,
-//   semo,
-//   table,
-//   tyre,
-//   milk,
-//   phone,
-//   watch,
-//   chair,
-// ];
+let stringOfItems =
+  "rice, yam, beans, cocoyam, banana, semo, table, tyre, milk, phone, watch, chair";
 
-// function edibleItems() {
-// edible =
-// }
+  // use the split js method to split the items with a comma and add to an array.
+let arrayOfItems = stringOfItems.split(",");
+
+ 
