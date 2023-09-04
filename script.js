@@ -67,7 +67,12 @@ function sortItems(arrayOfItems) {
   for (let i = 0; i < arrayOfItems.length; i++) {
     let item = arrayOfItems[i].trim();
 
-   
+    //Use includes() to check if an item from arrayOfItems exists in the edible or nonEdible arrays,
+    if (edible.includes(item)) {
+      edibleItems.push(item);
+    } else if (nonEdible.includes(item)) {
+      nonEdibleItems.push(item);
+    }
   }
 
   //convert back to strin of values using the js join() function and then return
