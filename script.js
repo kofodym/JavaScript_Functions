@@ -36,3 +36,36 @@ function countMe(stringLetters) {
 // assign the countMe function to a variable to call it, then call it in the terminal
 count = countMe(stringLetters);
 console.log(count);
+
+
+
+
+
+//QUESTION 2:
+// Given a string of items to be ``rice, yam, beans, cocoyam, banana, semo, table, tyre, milk, phone, watch, chair" 
+//use methods to separate the edible and non-edible items from the string.
+// Note: your output should be two new strings, one containing edible items and the other non-edible items.
+
+
+//define the string of items
+let stringOfItems = [
+  rice,
+  yam,
+  beans,
+  cocoyam,
+  banana,
+  semo,
+  table,
+  tyre,
+  milk,
+  phone,
+  watch,
+  chair,
+];
+
+// function edibleItems() {
+// edible = 
+}
+    
+}
+
